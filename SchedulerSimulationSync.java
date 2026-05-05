@@ -267,8 +267,8 @@ public class SchedulerSimulationSync {
         
         Random random = new Random(studentID);
         
-        int timeQuantum = 200 + random.nextInt(4) * 1000;
-        int numProcesses = 3 + random.nextInt(11);
+        int timeQuantum = 200- + random.nextInt(4) * 1000;
+        int numProcesses = 10 + random.nextInt(11);
         
         Queue<Thread> processQueue = new LinkedList<>();
         Map<Thread, Process> processMap = new HashMap<>();
