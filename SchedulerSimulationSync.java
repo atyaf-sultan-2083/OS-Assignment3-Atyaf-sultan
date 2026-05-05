@@ -95,7 +95,9 @@ class SharedResources {
     }finally {
         logLock.unlock();
     }
-}
+    }
+    }
+    
 
 // Class representing a process that implements Runnable to be run by a thread
 class Process implements Runnable {
@@ -230,6 +232,7 @@ class Process implements Runnable {
         }finally {
         SharedResources.cpuSemaphore.release();
     }
+
     }
     
     public String getName() {
