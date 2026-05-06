@@ -351,29 +351,29 @@ Synchronization means organizing thread access to shared resources to avoid prob
 
 **Repository URL**: 
 
-**Number of commits**: 
+**Number of commits**: 7
 
 **Commit messages**: 
-1. 
-2. 
-3. 
-4. 
+1. set my student id
+2.implemented synchronization mechanisms 
+3. add semphore
+4. fix the code
 
 ---
 
 ## Summary
 
 **Total time spent on assignment**: 
-
+15h
 **Key takeaways**: 
-1. 
-2. 
-3. 
+1. Synchronization is important for protecting shared resources.
+2. Locks and semaphores help prevent race conditions.
+3. Multithreading requires careful resource management. 
 
 **Most challenging aspect**: 
-
+Understanding synchronization and fixing thread-related errors in the program.
 **What I'm most proud of**: 
-
+Successfully implementing synchronization using ReentrantLock and Semaphore and getting the correct output.
 ---
 
 **End of Documentation**
