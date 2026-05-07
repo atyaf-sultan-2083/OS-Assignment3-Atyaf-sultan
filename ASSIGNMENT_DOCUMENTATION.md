@@ -349,7 +349,7 @@ Synchronization means organizing thread access to shared resources to avoid prob
 
 ## Part 6: GitHub Repository Information
 
-**Repository URL**: 
+**Repository URL**: https://github.com/atyaf-sultan-2083/OS-Assignment3-Atyaf-sultan.git
 
 **Number of commits**: 7
 
